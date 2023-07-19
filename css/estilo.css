@@ -1,0 +1,273 @@
+
+.header2{
+    width: 100%;
+    height: 500px;
+  background-size: 200%;
+    animation: fondos 10s infinite linear alternate;
+}
+.header22{
+    width: 100%;
+    height: 320px;
+  background-size: 200%;
+    animation: fondos 10s infinite linear alternate;
+}
+.header222{
+    width: 100%;
+    height: 280px;
+  background-size: 200%;
+   
+}
+@keyframes fondos{
+    from   {
+        background-position: bottom right;
+    }to{
+        background-position: top right;
+    }
+}
+
+
+#fondo1{
+    width: 100%;
+    height: 500px;
+}
+#icono1{
+    margin: 0;
+    height: 400px;
+}
+#icono11{
+
+    height: 300px;
+    width: 275px;
+   margin-left: 35px;
+}
+
+.color1{
+    background-color: blue;
+    opacity: 0.5;
+}
+.grays{
+background-color: rgba(15, 15, 15, 0.267);
+}
+.grayss{
+    background-color: rgb(232, 232, 241);
+    color: rgb(22, 22, 22);
+    }
+    .darker{
+        background-color: rgb(61, 61, 63);
+        
+        }
+.top-nav-collapse{
+    background-color: rgba(78, 120, 161, 0.945);
+}
+.colorpurp{
+    background-color: rgba(32, 24, 30, 0.589);
+}
+.colorpurp:hover{
+    background-color: rgba(32, 24, 30, 0.589);
+}
+.lupa{
+    height: 200px;
+    animation: lupas 8s linear infinite;
+    opacity: .9;
+
+    left: 5%;
+    position: absolute;
+    bottom: 0;
+}
+@keyframes lupas{
+    0%{
+        bottom: 2vh;
+        
+    }
+    5%{
+        height: 210px;
+    }
+    25%{
+       bottom:  26vh;
+    }
+    30%{
+        height: 190px;
+    }
+    50%{
+        left: -10vh;
+    }
+    55%{
+        height: 200px;
+    }
+    75%{
+        right: 0vh;
+        height: 170px;
+    }
+    100%{
+        bottom: 0vh;
+    }
+}
+
+@keyframes mover{
+    0%{
+        transform: translate(100%);
+    }  
+}
+.carddd{
+
+}
+.carddd:hover{
+    transition: 1s;
+background-color: rgba(77, 40, 40, 0.356);
+}
+.tdd{
+width: 150px;
+background-color: cornflowerblue;
+}
+.iconoss{
+    height: 250px;
+}
+.iconosss{
+    height: 200px;
+    background-color: rgb(204, 218, 218);
+  border-radius: 50%;
+}
+.face{
+    height: 100px;
+}
+.imgm{
+height: 100px;
+
+}
+.imgm:hover{
+transition: 0.5s;
+height: 125px;
+
+}
+.templatemo_contacttitle {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+.templatemo_sub_contacttitle {
+    width: 100%;
+    font-size: 22px;
+    color: #91bf24;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.templatemo_contact {
+    margin: 30px;
+    width: 100%;
+    margin-left: 15%;
+}
+
+.templatemo_contactform input, textarea {
+    width: 100%;
+    background: #282828;
+    border: 1px solid #393939;
+    padding: 7px 10px;
+    margin: 0px 0px 10px 0px;
+    background-color: #FAFAFA;
+}
+
+.templatemo_contactform textarea {
+    height: 100px;
+}
+
+
+.templatemo_contactform .btn-primary {
+    background: #92bf24;
+    border: none;
+    border-radius: 0px;
+    color: #3d5602;
+    font-weight: 800;
+}
+
+.templatemo_contactform .btn-primary:hover {
+    background: #a6d82c;
+}
+
+/*El codigo responsive*/
+@media (max-width: 1200px){
+    .header2{
+        height: auto;
+    }
+    .iconos{
+        transform: translateY(110px);
+    }
+}
+
+@media (max-width: 991px){
+    .iconos{
+        transform: translateY(210px);
+        
+    }
+    .containerp{
+        margin: 0 7%;
+    }
+    .hero-text{
+        padding-left: 0;
+    }
+    .hero-img{
+        width: 100%;
+        height: auto;
+    }
+    .titular{
+        margin: 0 25px;
+        
+    }
+    .perf{
+        display: none;
+    }
+}
+@media (max-width: 805px){
+    #icono1{
+        width: 100%;
+        height: auto;
+    }
+    .perf{
+        display: none;
+    }
+}
+@media (max-width: 767px){
+    #icono1{
+        margin: 0 0 0 11%;
+        width: 400px;
+        height: auto;
+    }
+    .iconos{
+        transform: translateY(0px);
+        
+    }
+    .containerp{
+        margin:auto;
+    }
+    .lupas{
+        margin: 0 0 0 14%;
+        transform: translateY(50px);
+    }
+    .centrado{
+        margin: auto;
+    }
+    .perf{
+        display: none;
+    }
+}
+@media (max-width: 490px){
+    #icono1{
+        margin: 0 0 0 15%;
+        width: 300px;
+        height: auto;
+    }
+    .perf{
+        display: none;
+    }
+    .hero-text{
+        margin: 0 30px;
+    }  
+    .lenguash{
+        margin: 0 30px;
+    }
+
+}
