@@ -108,9 +108,7 @@ background-color: rgba(15, 15, 15, 0.267);
         transform: translate(100%);
     }  
 }
-.carddd{
 
-}
 .carddd:hover{
     transition: 1s;
 background-color: rgba(77, 40, 40, 0.356);
