@@ -105,7 +105,7 @@ background-color: rgba(15, 15, 15, 0.267);
 
 @keyframes mover{
     0%{
-        transform: translate(100%);
+        transform: translateY(100%);
     }  
 }
 
@@ -196,13 +196,13 @@ height: 125px;
     }
 }
 
-@media (max-width: 991px){
+@media (max-width: 992px){
     .iconos{
         transform: translateY(210px);
         
     }
     .containerp{
-        margin: 0 7%;
+        margin: auto;
     }
     .hero-text{
         padding-left: 0;
@@ -267,7 +267,89 @@ height: 125px;
     .lenguash{
         margin: 0 30px;
     }
+}
+@media (max-width: 470px){
     .lupas{
-        margin: 0 0 0 0;
+        margin: 0 0 0 7%;
+       
     }
 }
+@media (max-width: 437px){
+    #icono1{
+        margin: 0 0 0 11%;
+        width: 300px;
+        height: auto;
+    }
+    .lupas{
+        margin: 0 0 0 4%;
+       
+    }
+}
+@media (max-width: 424px){
+    .lupas{
+        margin: 0 0 0 1%;
+       
+    }
+}
+@media (max-width: 413px){
+    .lupas{
+        margin: 0 0 0 -2%;
+       
+    }
+}
+@media (max-width: 401px){
+    .lupas{
+        margin: 0 0 0 -7%;
+       
+    }
+    #icono1{
+        margin: 0 0 0 9%;
+        width: 300px;
+        height: auto;
+    }
+}
+@media (max-width: 385px){
+    .lupas{
+        margin: 0 0 0 -9%;
+       
+    }
+    #icono1{
+        margin: 0 0 0 7%;
+        width: 300px;
+        height: auto;
+    }
+}
+@media (max-width: 379px){
+    .lupas{
+        margin: 0 0 0 -11%;
+       
+    }
+    #icono1{
+        margin: 0 0 0 6%;
+        width: 300px;
+        height: auto;
+    }
+}
+@media (max-width: 365px){
+    .lupas{
+        margin: 0 0 0 -13%;
+       
+    }
+    #icono1{
+        margin: 0 0 0 4%;
+        width: 300px;
+        height: auto;
+    }
+}
+@media (max-width: 357px){
+    .lupas{
+        margin: 0 0 0 -18%;
+       
+    }
+    #icono1{
+        margin: 0 0 0 3%;
+        width: 300px;
+        height: auto;
+    }
+}
+
